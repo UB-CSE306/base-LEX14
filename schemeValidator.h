@@ -8,9 +8,9 @@
  * https://tools.ietf.org/html/rfc3986#section-3.1
  *
  *
- *  +1 indicates presence of both UC and LC
- *  0  indicates only LC
- *  -1 indicates ill-formed
+ *  +1 indicates valid scheme with presence of both UC and LC
+ *   0 indicates valid scheme with only LC present
+ *  -1 indicates ill-formed scheme
  */
 int schemeValidator(char scheme[]);
 
