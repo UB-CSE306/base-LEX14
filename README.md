@@ -22,7 +22,7 @@ Remember to follow the process we have discussed:
 
 - Follow a Test-Driven Development approach, first writing black-box
 tests (and any supporting functions needed) using a testing framework
-(CUnit).  There may be existing blackbox tests, but these are not
+(Criterion).  There may be existing blackbox tests, but these are not
 guaranteed to be either correct or comprehensive.  Modify and/or add
 tests as needed to address all specifications properly.
 
@@ -51,5 +51,3 @@ have discussed so far.
 ## Finishing up
 
 Make sure you remember to **add/commit/push to your repo on GitHub** - if you don't we can't grade your work!
-
-After lab is finished fill in [the LEX 14 reflection form](https://docs.google.com/forms/d/e/1FAIpQLScIsNPNmunOkHoxvLTzir1K-hz-0DwBHLF-KKYYYUP2739Fjg/viewform?usp=sf_link).
