@@ -18,9 +18,9 @@ schemeValidator.o: schemeValidator.c schemeValidator.h
 	$(CC) $(CFLAGS) -c schemeValidator.c
 
 schemeValidatorTests.o: schemeValidatorTests.c schemeValidator.h 
-	$(CC) $(CFLAGS) -c -I $(INCLUDE_PATH) tests.c
+	$(CC) $(CFLAGS) -c -I $(INCLUDE_PATH) schemeValidatorTests.c
 
-tests:  schemeValidator.o tests.o
+tests:  schemeValidator.o schemeValidatorTests.o
 	$(CC) $(DEBUG) $(CFLAGS) -L $(LIB_PATH) -I $(INCLUDE_PATH) -o tests schemeValidator.o schemeValidatorTests.o -lcriterion -lgcov
 
 .PHONY: clean info
